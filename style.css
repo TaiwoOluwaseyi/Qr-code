@@ -40,3 +40,17 @@ body {
     padding: 1rem 4rem;
     font-weight: 100;
 }
+
+
+@media (max-width: 500px) {
+    .big-card {
+        width: 70%;
+    }
+    .small-card img {
+        width: 21rem;
+    }
+
+    .card-text p {
+        padding: 2rem 2rem;
+    }
+}
